@@ -1,0 +1,1 @@
+$("#target input").prop("disabled", true);

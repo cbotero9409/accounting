@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 11, 2021, 3:43:35 PM
+    Author     : vanesa
+*/
+
+/*------------------------------------------general---------------------------------------------------*/
+.float_right {
+    float: right;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.inline_flex {
+    display: inline-flex;
+}
+
+.width_auto {
+    width: auto;
+}
+
+.grid-view table tbody tr:hover {
+  background-color: #a2fca2;
+}
+
+
+/*------------------------------------------start layout-----------------------------------------------*/
+
+.breadcrumb {
+    background-color: initial;
+    margin-top: 15px;
+}
+
+
+/*-------------------------------------------notes-----------------------------------------------------*/
+
+.checknotes {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+}
+
+.notes_public {
+    display: contents;
+}
+
+/*----------------------------------------chart_accounts---------------------------------------------------*/
+.btn_concepts {
+    margin-top: -7px;
+}
+
+.btn_ch_acc {
+    margin-top: 30px;
+}
+
+.ch_row_1 {
+    height: 70px;
+    font-weight: 900;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.ch_row_1 a{    
+    font-size: 16px;   
+}
+
+.ch_row_2 {
+    height: 50px;
+    font-weight: 800;
+    font-size: 20px;
+    color: #0000ff !important;
+    text-transform: capitalize;
+    text-indent: 3px;
+}
+
+.ch_row_2 a{    
+    font-size: 16px;    
+    margin-left: -3px;
+    padding-right: 3px;
+}
+
+.ch_row_3 {
+    height: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #D35400 !important;
+    text-transform: capitalize;
+    text-indent: 6px;
+}
+
+.ch_row_3 a{    
+    font-size: 16px;    
+    margin-left: -6px;
+    padding-right: 5px;
+}
+
+.ch_row_4 {    
+    font-weight: 600; 
+    text-transform: capitalize;
+}
+
+/*-------------------------------------detailviews------------------------------------------------------*/
+table.detail-view th {
+    width: 25%;
+}
+
+table.detail-view td {
+    width: 75%;
+}
+
+
+/*---------------------------------------invoices----------------------------------------------------*/
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+.table_liquidation {
+    margin-top: -30px;
+}
+
+.button_liquidation{
+    margin-top: 32px;
+}
+
+.table_invoices_description{
+    word-wrap: break-word;
+    max-width: 570px;
+}
